@@ -3,5 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background: #ffffff; // Using this variable
+  color: #273746;
+  font-family: Arial, sans-serif;
+
+h1{
+  color: #b22222;
+  font-weight: normal;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: lighter;
+}
+p{
+  font-size: 14px;
+}
+
 }

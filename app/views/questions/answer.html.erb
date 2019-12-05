@@ -1,12 +1,18 @@
+<head>
+  <link rel="stylesheet" href="stylesheets/questions.scss">
+</head>
+
+<body>
 <h1><b>Stupid Coaching</b></h1>
-<p>
+<h2>
     <% if @answer == "I am going to work" %>
     <%= "Great!" %>
-    <% elsif @last_char == "?" %>
+    <% elsif @answer.last == "?" %>
     <%= "Silly question, get dressed and go to work!" %>
     <% else %>
     <%= "I don't care, get dressed and go to work!" %>
   <% end %>
-</p>
+</h2>
 
-<%= link_to "Ask a new question", "/ask" %>
+<p><%= link_to "Ask a new question", "/ask" %></p>
+</body>
